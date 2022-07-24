@@ -32,7 +32,6 @@ checkBtn.addEventListener("click", () => {
     }else if(inputVal < randomNum){
         statusText.textContent = "Too low number!";
     }
-    console.log(randomNum);
 });
 
 againBtn.addEventListener("click", () => {
